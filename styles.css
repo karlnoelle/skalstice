@@ -47,6 +47,9 @@ a:hover {
   border-right: 1px solid #8C8C8A;
   text-align: center;
 }
+.main-container .lhs .info:last-child {
+  border-right: none;
+}
 .main-container .rhs .faq .faq-q {
   padding: 1rem 0rem;
 }
