@@ -8,16 +8,62 @@ html {
     }
 }
 
+h1, h2, h3, h4, h5, h6 {
+    font-family: sofia-pro, Helvetica, sans-serif;
+}
+
+p {
+    line-height: 1.4;
+}
+
+a {
+    color: #8C8C8A;
+    
+    &:hover {
+        text-decoration: none;
+    }
+}
+
 .main-container {
-    h1 {
-        font-size: 2rem;
-        padding-bottom: 2rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(200px, 1fr));
+    grid-gap: 2em;
+
+    h3 {
+        font-weight: 900;
+        font-size: 1.4rem;
     }
 
-    ul {
-        li {
-            padding-bottom: 1rem;
-            font-size: 1.2rem;
+    .lhs {
+        h1 {
+            font-size: 3rem;
+            padding-bottom: .6rem;
+            font-weight: 900;
+        }
+
+        .info {
+            border: 1px solid #8C8C8A;
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            margin-top: 2rem;
+            
+            > * {
+                padding: 1rem 0rem;
+                border-right: 1px solid #8C8C8A;
+                text-align: center;
+            }
+        }
+    }
+    
+    .rhs {
+        .faq {
+            .faq-q {
+                padding: 1rem 0rem;
+
+                h3 {
+                    padding-bottom: .6rem;
+                }
+            }
         }
     }
 }
