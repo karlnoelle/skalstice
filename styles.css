@@ -7,8 +7,13 @@ html body {
   margin: 2em;
 }
 
-h1 {
+.main-container h1 {
   font-size: 2rem;
+  padding-bottom: 2rem;
+}
+.main-container ul li {
+  padding-bottom: 1rem;
+  font-size: 1.2rem;
 }
 
 /*# sourceMappingURL=styles.css.map */
