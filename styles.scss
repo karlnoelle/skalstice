@@ -1,5 +1,5 @@
 html {
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     background-color: #051236;
     color: #8C8C8A;
 
@@ -13,7 +13,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 p {
-    line-height: 1.4;
+    line-height: 1.5;
+    font-size: 1.1rem;
 }
 
 a {
@@ -26,7 +27,7 @@ a {
 
 .main-container {
     display: grid;
-    grid-template-columns: repeat(auto-fit,minmax(200px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     grid-gap: 2em;
 
     h3 {
