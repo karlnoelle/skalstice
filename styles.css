@@ -43,7 +43,7 @@ a:hover {
   margin-top: 2rem;
 }
 .main-container .lhs .info > * {
-  padding: 1rem 0rem;
+  padding: 1rem;
   border-right: 1px solid #8C8C8A;
   text-align: center;
 }
